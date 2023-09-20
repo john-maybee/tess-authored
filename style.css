@@ -1,0 +1,104 @@
+/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray: #ccc;
+    --dark: #333;
+    --light: #f4f4f4;
+    --primary: #f4f4f4;
+    --secondary: #333;
+    --danger: #dc3545;
+    --success: #28a745;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --light: #f4f4f4;
+    --dark: #333;
+    --serif: "Playfair Display", serif;
+    --sans: "Lato", sans-serif;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--sans);
+    font-size: var(--font-size);
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    color: var(--dark);
+}
+a:hover {
+    color: var(--gray);
+    text-decoration: none;
+}
+
+/* navbar */
+
+nav {
+    font-family: var(--sans);
+    font-size: 80%;
+    padding: 1rem;
+}
+  
+nav h1 a {
+    font-family: var(--serif);
+    font-weight: bold;
+}
+
+nav h1 a [class*="fa-"] {
+    font-size: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  nav li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav [class*="fa-"] {
+    font-size: 150%;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+}
+
+@media (min-width: 850px){
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    nav li:first-child {
+      flex-basis: auto;
+      text-align: left;
+      margin-right: auto;
+    }
+}
