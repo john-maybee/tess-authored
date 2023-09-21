@@ -127,6 +127,8 @@ div section img {
     margin: 0 auto;
 }
 
+/* about page and section */
+
 #about {
     padding: 1rem;
     max-width: 1200px;
@@ -136,6 +138,10 @@ div section img {
 #about h2, #about p {
     display: block;
     padding-left: 1rem;
+}
+
+#about h2 {
+    font-weight: bold;
 }
 
 @media (min-width: 850px){
