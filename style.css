@@ -101,7 +101,7 @@ nav a img {
 /* intro */
 
 #name {
-    padding: 4rem 1rem 10rem 1rem;
+    padding: 4rem 1rem 2rem 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -125,6 +125,17 @@ div section img {
     height: auto;
     max-width: 400px;
     margin: 0 auto;
+}
+
+#about {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about h2, #about p {
+    display: block;
+    padding-left: 1rem;
 }
 
 @media (min-width: 850px){
