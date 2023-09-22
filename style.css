@@ -142,16 +142,22 @@ div section img {
     font-weight: bold;
 }
 
-@media (min-width: 850px){
-    nav {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    nav li:first-child {
-      flex-basis: auto;
-      text-align: left;
-      margin-right: auto;
-    }
+/* contact */
+
+#contact {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+#contact h2 {
+    font-family: var(--serif);
+    font-weight: bold;
+}
+
+#contact p:last-child {
+    margin-top: 3rem;
 }
 
 /* button class */
@@ -168,3 +174,24 @@ div section img {
 .button:hover {
     background-color: var(--black);
 }
+
+/* gray section */
+
+.section-gray {
+    background-color: var(--gray);
+}
+
+/* media queries */
+
+@media (min-width: 850px){
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    nav li:first-child {
+      flex-basis: auto;
+      text-align: left;
+      margin-right: auto;
+    }
+}
+
