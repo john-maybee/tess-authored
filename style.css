@@ -26,13 +26,28 @@ html {
   box-sizing: inherit;
 }
 
+#navigation::before{
+    content: "";
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('https://images.pexels.com/photos/1228515/pexels-photo-1228515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+
 body {
     padding: 0;
     margin: 0;
     font-family: var(--sans);
     font-size: var(--font-size);
     color: var(--dark);
-    background-color: var(--light);
 }
 
 h1, h2, h3 {
@@ -177,9 +192,9 @@ div section img {
 
 /* gray section */
 
-.section-gray {
+/* .section-gray {
     background-color: var(--gray);
-}
+} */
 
 /* media queries */
 
