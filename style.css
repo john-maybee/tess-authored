@@ -12,8 +12,6 @@
     --success: #28a745;
     --warning: #ffc107;
     --info: #17a2b8;
-    --light: #f4f4f4;
-    --dark: #333;
     --serif: "Playfair Display", serif;
     --sans: "Lato", sans-serif;
 }
@@ -94,7 +92,7 @@ nav a {
 nav a img {
     width: 100%;
     height: auto;
-    max-width: 100px;
+    max-width: 80px;
     margin: 0 auto;
 }
 
